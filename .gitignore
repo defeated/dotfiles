@@ -1,0 +1,13 @@
+.svn
+
+# OSX junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+*.scc
+
+# Visual Studio junk
+*.suo
+*.csproj.user
