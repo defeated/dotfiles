@@ -1,0 +1,14 @@
+[user]
+	name = eddie cianci
+	email = defeated2k4@gmail.com
+[color]
+	ui = true
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+[apply]
+	whitespace = nowarn
+[core]
+	autocrlf = input
