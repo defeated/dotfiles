@@ -1,8 +1,14 @@
+# configure command history, press the up key to go backwards
+export HISTSIZE=1000 # number of lines kept in history
+export SAVEHIST=1000 # number of lines saved in the history after logout
+export HISTFILE=~/.zhistory # location of history
+setopt inc_append_history # append command to history file once executed
+
 # set version control
 autoload -U vcs_info # include vcs module
 zstyle ":vcs_info:*" check-for-changes true
-zstyle ":vcs_info:*" unstagedstr "!" # changes waiting to be staged
-zstyle ":vcs_info:*" stagedstr "*" # changes waiting to be committed
+zstyle ":vcs_info:*" unstagedstr "%F{red}!%f" # changes waiting to be staged
+zstyle ":vcs_info:*" stagedstr "%F{yellow}*%f" # changes waiting to be committed
 zstyle ":vcs_info:*" formats "%F{cyan}%s%f:%F{cyan}(%b)%f%u%c" # git:(branch)!?
 
 # setup aliases
