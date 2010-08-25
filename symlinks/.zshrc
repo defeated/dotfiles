@@ -1,3 +1,7 @@
+# colors module
+autoload colors
+colors
+
 # configure command history, press the up key to go backwards
 export HISTSIZE=1000 # number of lines kept in history
 export SAVEHIST=1000 # number of lines saved in the history after logout
