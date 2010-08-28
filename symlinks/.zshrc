@@ -7,6 +7,7 @@ export HISTSIZE=1000 # number of lines kept in history
 export SAVEHIST=1000 # number of lines saved in the history after logout
 export HISTFILE=~/.zhistory # location of history
 setopt inc_append_history # append command to history file once executed
+setopt hist_ignore_all_dups # ignore duplicate commands
 
 # set version control
 autoload -U vcs_info # include vcs module
@@ -22,6 +23,7 @@ alias ls="ls -FGoah" # long format, show dotfiles, enable colors, with identifie
 autoload -U compinit # include completion initializer
 zstyle ":completion:*" menu select # tab through matches in a menu, or use arrow keys
 zstyle ":completion:*" matcher-list "m:{a-zA-Z}={A-Za-z}" # case insensitive
+zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 compinit # run completion initializer
 
 precmd() {
