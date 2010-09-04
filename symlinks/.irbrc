@@ -1,7 +1,9 @@
 require 'rubygems'
 require 'pp'
 require 'wirble'
-require 'irb/completion' 
+require 'irb/completion'
+require 'date'
+require 'time'
 
 # Enable Indentation in irb
 IRB.conf[:AUTO_INDENT] = true 
