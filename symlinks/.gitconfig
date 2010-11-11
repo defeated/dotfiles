@@ -13,3 +13,5 @@
 [core]
 	autocrlf = input
 	editor = mate -w
+[github]
+  user = defeated

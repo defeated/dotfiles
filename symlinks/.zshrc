@@ -14,7 +14,7 @@ autoload -U vcs_info # include vcs module
 zstyle ":vcs_info:*" check-for-changes true
 zstyle ":vcs_info:*" unstagedstr "%F{red}!%f" # changes waiting to be staged
 zstyle ":vcs_info:*" stagedstr "%F{yellow}*%f" # changes waiting to be committed
-zstyle ":vcs_info:*" formats "%F{cyan}%s%f:%F{cyan}(%b)%f%u%c" # git:(branch)!?
+zstyle ":vcs_info:*" formats "%F{cyan}%s%f:%F{cyan}(%b)%f%u%c" # git:(branch)!*
 
 # setup aliases
 alias ls="ls -FGoah" # long format, show dotfiles, enable colors, with identifiers
@@ -30,8 +30,13 @@ precmd() {
 	vcs_info # run vcs module
 
 	# format prompt
- 	PROMPT="%B%F{magenta}%n%f%b@%B%F{yellow}%m%f%b[%B%F{green}${PWD/#$HOME/~}%f%b] %# " # user@machine[dir] %
-  	RPROMPT="${vcs_info_msg_0_}" # display any vcs info on the right
+ 	PROMPT="%B%F{magenta}$(rvm-prompt)%f%b[%B%F{green}${PWD/#$HOME/~}%f%b]
+%B%F{yellow}%# %f%b" # user@machine[dir] %
+  RPROMPT="${vcs_info_msg_0_}" # display any vcs info on the right
+}
+
+preexec() {
+  print -Pn "\e]0;%n@%m\a"
 }
 
 # load RVM into a shell session.
