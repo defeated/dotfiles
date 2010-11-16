@@ -1,1 +1,3 @@
---color --format documentation
+--require fuubar
+--format Fuubar
+--color
