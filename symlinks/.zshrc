@@ -30,9 +30,9 @@ precmd() {
 	vcs_info # run vcs module
 
 	# format prompt
- 	PROMPT="%B%F{magenta}$(rvm-prompt)%f%b[%B%F{green}${PWD/#$HOME/~}%f%b]
-%B%F{yellow}%# %f%b" # user@machine[dir] %
-  RPROMPT="${vcs_info_msg_0_}" # display any vcs info on the right
+ #	PROMPT="%B%F{magenta}$(rvm-prompt)%f%b[%B%F{green}${PWD/#$HOME/~}%f%b]
+#%B%F{yellow}%# %f%b" # user@machine[dir] %
+#  RPROMPT="${vcs_info_msg_0_}" # display any vcs info on the right
 }
 
 preexec() {
