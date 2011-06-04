@@ -7,11 +7,13 @@
 	co = checkout
 	st = status
 	ci = commit
-	br = branch -av
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [apply]
 	whitespace = nowarn
 [core]
 	autocrlf = input
 	editor = mate -w
+	safecrlf = true
 [github]
   user = defeated
