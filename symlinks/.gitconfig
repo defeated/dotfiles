@@ -4,6 +4,7 @@
 [color]
 	ui = true
 [alias]
+  aa = add .
 	co = checkout
 	st = status
 	ci = commit
