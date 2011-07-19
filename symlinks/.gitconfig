@@ -10,6 +10,7 @@
 	ci = commit
 	br = branch
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	ign = ls-files -o -i --exclude-standard
 [apply]
 	whitespace = nowarn
 [core]
