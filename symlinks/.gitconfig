@@ -18,6 +18,8 @@
 [core]
 	autocrlf = input
 	editor = mate -w
-	safecrlf = true
+	editor = subl
 [github]
   user = defeated
+[push]
+	default = current
