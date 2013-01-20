@@ -16,6 +16,6 @@ export GIT_PS1_SHOWUPSTREAM=legacy
 export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWCOLORHINTS=true
 
-PROMPT_COMMAND="__git_ps1 '$MAGENTA\$(~/.rvm/bin/rvm-prompt)$ENDCLR [$CYAN\w$ENDCLR]\n' '💰  ' '(%s) '"
+PROMPT_COMMAND="__git_ps1 '$MAGENTA\$(~/.rvm/bin/rvm-prompt)$ENDCLR [$CYAN\w$ENDCLR]\n' '💰  ' '🌱  (%s) '"
 
 alias ls="ls -FGoah"
