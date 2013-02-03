@@ -6,9 +6,10 @@
 [alias]
   aa = add .
 	co = checkout
-	st = status
+	st = status -sb
 	ci = commit
 	br = branch
+	cp = cherry-pick
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	ign = ls-files -o -i --exclude-standard
 	pom = push origin master
@@ -17,8 +18,8 @@
 	whitespace = nowarn
 [core]
 	autocrlf = input
-	editor = mate -w
 	editor = subl
+	excludesfile = /Users/defeated/.gitignore_global
 [github]
   user = defeated
 [push]
