@@ -1,5 +1,6 @@
 JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 PATH=/usr/local/share/npm/bin:/usr/local/bin:$PATH
+PATH=/usr/local/heroku/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 
 GREEN="\e[32m"
