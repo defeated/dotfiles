@@ -1,9 +1,10 @@
 PATH=/usr/local/share/npm/bin:/usr/local/bin:$PATH
-GREEN="\[\033[32m\]"
-MAGENTA="\[\033[1;35m\]"
-YELLOW="\[\033[1;33m\]"
-CYAN="\[\033[36m\]"
-ENDCLR="\[\033[0m\]"
+
+GREEN="\e[32m"
+MAGENTA="\e[1;35m"
+YELLOW="\e[1;33m"
+CYAN="\e[36m"
+ENDCLR="\e[0m"
 
 source ~/.rvm/scripts/rvm
 source ~/.rvm/scripts/completion
