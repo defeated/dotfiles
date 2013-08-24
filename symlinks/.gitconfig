@@ -1,28 +1,30 @@
 [user]
-	name = eddie cianci
-	email = defeated2k4@gmail.com
+  name = eddie cianci
+  email = defeated2k4@gmail.com
 [color]
-	ui = true
+  ui = true
 [alias]
   aa = add .
-	co = checkout
-	st = status -sb
-	ci = commit
-	br = branch
-	cp = cherry-pick
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	ign = ls-files -o -i --exclude-standard
-	pom = push origin master
+  co = checkout
+  cob = co -b
+  st = status -sb
+  ci = commit
+  br = branch
+  cp = cherry-pick
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  ign = ls-files -o -i --exclude-standard
+  pom = push origin master
+  pre = pull --rebase
   shorten = "!sh -c 'curl -i http://git.io -F url=$1' -"
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
 [core]
-	autocrlf = input
-	editor = subl
-	excludesfile = /Users/defeated/.gitignore_global
+  autocrlf = input
+  editor = subl
+  excludesfile = /Users/defeated/.gitignore_global
 [github]
   user = defeated
 [push]
-	default = current
+  default = current
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
