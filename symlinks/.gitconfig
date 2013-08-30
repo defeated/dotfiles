@@ -21,7 +21,7 @@
 [core]
   autocrlf = input
   editor = subl
-  excludesfile = /Users/defeated/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [github]
   user = defeated
 [push]
