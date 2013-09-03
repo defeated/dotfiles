@@ -6,7 +6,7 @@
 [alias]
   aa = add .
   co = checkout
-  cob = co -b
+  cob = checkout -b
   st = status -sb
   ci = commit
   br = branch
@@ -20,11 +20,11 @@
   whitespace = nowarn
 [core]
   autocrlf = input
-  editor = subl
+  editor = subl -w -n
   excludesfile = ~/.gitignore_global
 [github]
   user = defeated
 [push]
-  default = current
+  default = simple
 [credential]
   helper = osxkeychain
