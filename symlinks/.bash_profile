@@ -1,4 +1,3 @@
-
 # terminal history settings!
 export HISTFILESIZE=4000
 export HISTCONTROL=ignoreboth
@@ -32,13 +31,14 @@ export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWCOLORHINTS=true
 
 # dat prompt!
+export PS2="   ${RED}↳${ENDCLR}  "
 export PS1=""
-export PS1="${PS1}${YELLOW}\u@\h${ENDCLR}:"
-export PS1="${PS1}${CYAN}\w${ENDCLR}"
-export PS1="${PS1}${GREEN}\$(__git_ps1 ' ➤ %s')${ENDCLR}"
+export PS1="${PS1}${YELLOW}\u@\h${ENDCLR} ▸ "
+export PS1="${PS1}${MAGENTA}\$(rbenv version-name)${ENDCLR} ▸ "
+export PS1="${PS1}${CYAN}\${PWD}${ENDCLR}"
+export PS1="${PS1}\$(__git_ps1 ' ▸ ${GREEN}%s${ENDCLR}')"
 export PS1="${PS1}\n"
-export PS1="${PS1}${MAGENTA}\$(rbenv version-name)${ENDCLR}"
-export PS1="${PS1}${RED} ★ ${ENDCLR}"
+export PS1="${PS1}${RED}★ ${ENDCLR}"
 
 # aliases!
 alias ls="ls -FGoah"
