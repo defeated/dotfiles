@@ -3,6 +3,7 @@ export HISTFILESIZE=4000
 export HISTCONTROL=ignoreboth
 
 # paths!
+eval "$(rbenv init -)"
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/bin:$PATH
@@ -18,7 +19,6 @@ CYAN="\e[36m"
 ENDCLR="\e[0m"
 
 # includes!
-eval "$(rbenv init -)"
 source `brew --prefix`/etc/autojump.sh
 source `brew --prefix`/etc/bash_completion.d/git-completion.bash
 source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
