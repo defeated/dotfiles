@@ -1,4 +1,7 @@
+
+# terminal history settings!
 export HISTFILESIZE=4000
+export HISTCONTROL=ignoreboth
 
 # paths!
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
@@ -24,7 +27,7 @@ source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 # options for __git_ps1 function
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
-export GIT_PS1_SHOWUPSTREAM="git"
+export GIT_PS1_SHOWUPSTREAM=git
 export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWCOLORHINTS=true
 
@@ -41,3 +44,6 @@ export PS1="${PS1}${RED} ★ ${ENDCLR}"
 alias ls="ls -FGoah"
 alias irb="pry"
 alias heroky="heroku"
+alias dnsflush="dscacheutil -flushcache"
+alias ipinternal="ipconfig getifaddr en1"
+alias ipexternal="dig +short myip.opendns.com @208.67.222.222 @208.67.220.220"
