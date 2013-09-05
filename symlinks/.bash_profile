@@ -1,3 +1,4 @@
+
 # terminal history settings!
 export HISTFILESIZE=4000
 export HISTCONTROL=ignoreboth
@@ -11,12 +12,15 @@ export PATH=/usr/local/heroku/bin:$PATH
 export PATH=$JAVA_HOME/bin:$PATH
 
 # colors!
-RED="\e[31m"
-GREEN="\e[32m"
-MAGENTA="\e[35m"
-YELLOW="\e[33m"
-CYAN="\e[36m"
-ENDCLR="\e[0m"
+BLACK="\[\033[0;30m\]"
+RED="\[\033[0;31m\]"
+GREEN="\[\033[0;32m\]"
+YELLOW="\[\033[0;33m\]"
+BLUE="\[\033[0;34m\]"
+MAGENTA="\[\033[0;35m\]"
+CYAN="\[\033[0;35m\]"
+WHITE="\[\033[0;37m\]"
+ENDCLR="\[\033[0m\]"
 
 # includes!
 source `brew --prefix`/etc/autojump.sh
@@ -37,7 +41,7 @@ export PS1="${PS1}${YELLOW}\u@\h${ENDCLR} ▸ "
 export PS1="${PS1}${MAGENTA}\$(rbenv version-name)${ENDCLR} ▸ "
 export PS1="${PS1}${CYAN}\${PWD}${ENDCLR}"
 export PS1="${PS1}\$(__git_ps1 ' ▸ ${GREEN}%s${ENDCLR}')"
-export PS1="${PS1}\n"
+export PS1="${PS1}\[\n\]"
 export PS1="${PS1}${RED}★ ${ENDCLR}"
 
 # aliases!
