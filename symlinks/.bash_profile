@@ -1,4 +1,5 @@
 # terminal history settings!
+export CLICOLOR=1
 export HISTFILESIZE=4000
 export HISTCONTROL=ignoreboth
 
