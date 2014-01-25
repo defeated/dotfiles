@@ -29,3 +29,7 @@
   default = simple
 [credential]
   helper = osxkeychain
+[gui]
+  diffopts = --patience
+[diff]
+  algorithm = patience
