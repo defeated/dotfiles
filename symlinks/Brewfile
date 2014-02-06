@@ -1,0 +1,83 @@
+# PROLOGUE
+update
+doctor
+
+#
+# HOMEBREW
+# http://brew.sh
+#
+tap homebrew/binary
+tap phinze/cask
+install brew-cask
+
+#
+# OS
+#
+install bash-completion
+install htop
+
+#
+# GIT
+# http://git-scm.com
+#
+install git
+install hub
+
+#
+# RUBY
+# http://ruby-lang.org
+#
+install openssl libyaml readline
+install ruby-build
+install rbenv
+install rbenv-default-gems
+install rbenv-gem-rehash
+install rbenv-readline
+install rbenv-vars
+
+#
+# VAGRANT
+# http://vagrantup.com
+#
+cask install vagrant
+cask install virtualbox
+
+#
+# NODE
+# http://nodejs.org
+#
+install node
+
+#
+# GO
+# http://golang.org
+#
+install go
+install mercurial
+
+#
+# AG, THE SILVER SEARCHER
+# https://github.com/ggreer/the_silver_searcher
+#
+install the_silver_searcher
+
+#
+# REDIS
+# http://redis.io
+#
+install redis
+
+#
+# MYSQL
+# http://mysql.com
+#
+install mysql
+
+#
+# DOCKER
+# http://docker.io
+#
+install homebrew/binary/docker
+
+# EPILOGUE
+cleanup
