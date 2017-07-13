@@ -1,0 +1,11 @@
+{
+  "common": {
+    "watcher": "uv"
+  },
+  "ext": {
+    "shell": {
+      "colorscheme": "default",
+      "theme": "default_leftonly"
+    }
+  }
+}
