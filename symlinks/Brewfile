@@ -9,6 +9,7 @@ cask "google-chrome"
 cask "spotify"
 cask "viscosity"
 cask "visual-studio-code"
+cask "sequel-pro"
 cask "zoomus"
 cask "cloudapp"
 
