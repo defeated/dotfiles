@@ -12,6 +12,7 @@ cask "visual-studio-code"
 cask "sequel-pro"
 cask "zoomus"
 cask "cloudapp"
+cask "keepingyouawake"
 
 # fonts
 tap "homebrew/cask-fonts"
