@@ -1,0 +1,43 @@
+# Brewfile for new machine
+# install homebrew from brew.sh then run `brew bundle`
+
+# apps
+tap "homebrew/cask"
+cask "docker"
+cask "firefox"
+cask "google-chrome"
+cask "spotify"
+cask "viscosity"
+cask "visual-studio-code"
+cask "sequel-pro"
+cask "zoom"
+cask "cloudapp"
+cask "keepingyouawake"
+cask "1password"
+cask "slack"
+cask "keybase"
+cask "iterm2"
+
+# fonts
+tap "homebrew/cask-fonts"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+
+# dev - puma dev server
+tap "puma/puma"
+brew "puma/puma/puma-dev"
+
+# dev - tools
+brew "git"
+brew "gh"
+brew "starship"
+brew "antigen"
+brew "asdf"
+brew "openssl"
+brew "readline"
+brew "gpg"
+brew "gawk"
+brew "curl"
+brew "most"
+brew "ripgrep"
+brew "tree"

@@ -1,0 +1,13 @@
+[user]
+  name = Eddie Cianci
+  email = defeated2k4@gmail.com
+[pull]
+  rebase = true
+[rebase]
+  autoStash = true
+[fetch]
+  prune = true
+[submodule]
+  recurse = true
+[init]
+  defaultBranch = main

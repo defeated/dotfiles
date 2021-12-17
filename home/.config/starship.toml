@@ -1,0 +1,50 @@
+# uses Nerd Font extension of Fira Code
+#   brew install --cask font-fira-code-nerd-font
+
+scan_timeout = 25
+right_format = """$cmd_duration$aws"""
+format = """[╓](fg:cyan)$all[╙](fg:cyan)$character"""
+
+[aws]
+style = "bg:bright-blue"
+format = "[](fg:bright-blue)[ $profile $symbol]($style)[$region ]($style)[](fg:bright-blue)"
+
+[aws.region_aliases]
+us-east-1 = "US-EA-1"
+us-east-2 = "US-EA-2"
+us-west-1 = "US-WE-1"
+us-west-2 = "US-WE-2"
+
+[character]
+success_symbol = "[≡](bold green)"
+error_symbol = "[≢](bold red)"
+
+[directory]
+truncate_to_repo = false
+truncation_symbol = "../"
+style	= "underline bold cyan"
+
+[username]
+show_always = true
+style_user = "fg:bright-blue"
+format = "[$user]($style) [⚡](#FFBF00)"
+
+[hostname]
+ssh_only = false
+style = "fg:bright-purple"
+
+[ruby]
+symbol = ""
+style = "fg:bright-white bg:bright-red"
+format = "[](fg:bright-red)[ $symbol $version ]($style)[](fg:bright-red) "
+
+[nodejs]
+symbol = ""
+style = "fg:black bg:bright-yellow"
+format = "[](fg:bright-yellow)[ $symbol $version ]($style)[](fg:bright-yellow) "
+
+[cmd_duration]
+style = "bg:bright-white fg:bright-black"
+format = "[  $duration ]($style) "
+show_milliseconds = true
+min_time = 10
