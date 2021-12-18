@@ -17,6 +17,18 @@ the shell, ruby, node, git, etc.
   * zsh autcompletion & suggestions
   * zsh syntax highlighting
   * iTerm CPU/MEM/NET usage
-  * summon on any display or virtual desktop with <kbd>cmd + ~</kbd> hotkey
+  * summon on any display or virtual desktop with <kbd>cmd</kbd> + <kbd>~</kbd>
 
-![Terminal Prompt](./prompt.gif)
+### Examples
+
+#### Hotkey
+
+![Terminal Prompt - Hotkey](./examples/prompt-01-hotkey.gif)
+
+#### Suggestions
+
+![Terminal Prompt - Suggestions](./examples/prompt-02-suggestions.gif)
+
+#### Syntax highlighting and errors
+
+![Terminal Prompt - Syntax and Errors](./examples/prompt-03-syntax.gif)
