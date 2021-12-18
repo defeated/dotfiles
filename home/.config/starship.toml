@@ -63,6 +63,5 @@ format = "[](fg:bright-yellow)[ $symbol $version ]($style)[](fg:bright-yel
 
 [cmd_duration]
 style = "bg:bright-white fg:bright-black"
-format = "[  $duration ]($style) "
-show_milliseconds = true
+format = " [  $duration ]($style) "
 min_time = 10
