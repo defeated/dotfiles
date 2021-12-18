@@ -25,7 +25,7 @@ style = "cyan dimmed"
 
 [aws]
 style = "bg:bright-blue"
-format = "[](fg:bright-blue)[ $profile $symbol]($style)[$region ]($style)[](fg:bright-blue)"
+format = "[ ](fg:bright-blue)[ $profile $symbol]($style)[$region ]($style)[ ](fg:bright-blue)"
 
 [aws.region_aliases]
 us-east-1 = "US-EA-1"
@@ -54,12 +54,12 @@ style = "fg:bright-purple"
 [ruby]
 symbol = ""
 style = "fg:bright-white bg:bright-red"
-format = "[](fg:bright-red)[ $symbol $version ]($style)[](fg:bright-red) "
+format = "[ ](fg:bright-red)[ $symbol $version ]($style)[ ](fg:bright-red) "
 
 [nodejs]
 symbol = ""
 style = "fg:black bg:bright-yellow"
-format = "[](fg:bright-yellow)[ $symbol $version ]($style)[](fg:bright-yellow) "
+format = "[ ](fg:bright-yellow)[ $symbol $version ]($style)[ ](fg:bright-yellow) "
 
 [cmd_duration]
 style = "bg:bright-white fg:bright-black"
