@@ -1,15 +1,15 @@
 # colorize commands like `ls` etc.
 export CLICOLOR=1
 
-# load zsh autocompletion based on man pages
-if type brew &>/dev/null
-then
-  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+# separate default editor commands for ui and cli
+export VISUAL="code --wait --new-window"
+export EDITOR="nano"
 
-  autoload -Uz compinit
-  compinit
-  zstyle ':completion:*' menu select
-fi
+# load zsh autocompletion based on man pages
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
 
 # load zsh autosuggestions based on cli history
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
