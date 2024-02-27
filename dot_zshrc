@@ -1,0 +1,26 @@
+# colorize commands like `ls` etc.
+export CLICOLOR=1
+
+# load zsh autocompletion based on man pages
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+
+# load zsh autosuggestions based on cli history
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# load zsh syntax highlighting of commands
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# load starship command prompt formatting
+eval "$(starship init zsh)"
+
+# load zoxide directory traversal and cd override
+eval "$(zoxide init zsh --cmd cd)"
+
+# load fuzzy finder autocompletions and keybindings
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
