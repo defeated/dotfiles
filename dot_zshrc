@@ -8,6 +8,7 @@ then
 
   autoload -Uz compinit
   compinit
+  zstyle ':completion:*' menu select
 fi
 
 # load zsh autosuggestions based on cli history
