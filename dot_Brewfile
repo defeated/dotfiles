@@ -5,6 +5,9 @@ tap "homebrew/services"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 
+# General-purpose data compression with high compression ratio
+brew "xz"
+
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 
@@ -32,6 +35,9 @@ brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
 
+# Homebrew, but with Docker images
+brew "whalebrew"
+
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 
@@ -43,6 +49,9 @@ brew "zsh-syntax-highlighting"
 
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+
+# UI to create reproducible developer environment based on devcontainer
+cask "devpod"
 
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
@@ -56,5 +65,7 @@ cask "raycast"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "dracula-theme.theme-dracula"
-vscode "vscode-icons-team.vscode-icons"
+vscode "github.vscode-pull-request-github"
+vscode "ms-azuretools.vscode-docker"
 vscode "tamasfe.even-better-toml"
+vscode "vscode-icons-team.vscode-icons"
