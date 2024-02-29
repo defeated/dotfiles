@@ -689,6 +689,18 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "spotify": {
+        "version": "1.2.32.997,4c6498b6,1708",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "viscosity": {
+        "version": "1.11",
+        "options": {
+          "full_name": "viscosity"
+        }
       }
     },
     "vscode": {
