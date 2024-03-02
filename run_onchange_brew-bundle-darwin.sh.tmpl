@@ -1,0 +1,10 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/sh
+
+# .Brewfile hash: {{ joinPath .chezmoi.homeDir ".Brewfile" | include | sha256sum }}
+
+if ! brew bundle check --global; then
+  echo '📦 Installing Homebrew packages from ~/.Brewfile'
+  brew bundle install --global
+fi
+{{ end -}}

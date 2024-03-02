@@ -10,9 +10,4 @@ if ! brew analytics state | grep -q 'disabled'; then
   echo '⛔️ Disable Homebrew analytics'
   brew analytics off
 fi
-
-if ! brew bundle check --global; then
-  echo '📦 Installing Homebrew packages from ~/.Brewfile'
-  brew bundle install --global
-fi
 {{ end -}}
