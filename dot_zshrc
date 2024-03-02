@@ -23,5 +23,8 @@ eval "$(starship init zsh)"
 # load zoxide directory traversal and cd override
 eval "$(zoxide init zsh --cmd cd)"
 
+# aliases
+alias ls="eza"
+
 # load fuzzy finder autocompletions and keybindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
