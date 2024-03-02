@@ -1,0 +1,18 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/sh
+
+if ! command -v brew; then
+  echo '🍺 Installing Homebrew'
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+if ! brew analytics state | grep -q 'disabled'; then
+  echo '⛔️ Disable Homebrew analytics'
+  brew analytics off
+fi
+
+if ! brew bundle check --global; then
+  echo '📦 Installing Homebrew packages from ~/.Brewfile'
+  brew bundle install --global
+fi
+{{ end -}}
