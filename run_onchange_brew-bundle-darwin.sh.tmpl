@@ -5,6 +5,6 @@
 
 if ! brew bundle check --global; then
   echo '📦 Installing Homebrew packages from ~/.Brewfile'
-  brew bundle install --global
+  brew bundle install --global --no-lock
 fi
 {{ end -}}
