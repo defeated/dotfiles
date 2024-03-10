@@ -1,6 +1,17 @@
 # dotfiles (2024)
 
-for macOS, it's still pretty good (currently Sonoma 14.3)
+for macOS, it's still pretty good (currently Sonoma 14.4)
+
+---
+
+If you're me:
+
+`export YOUR_GITHUB_USERNAME=defeated`
+
+but if you're you:
+
+1. 🍴 https://github.com/defeated/dotfiles/fork
+2. `export YOUR_GITHUB_USERNAME=???`
 
 ---
 
