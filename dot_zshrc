@@ -18,6 +18,7 @@ eval "$(zoxide init zsh --cmd cd)"
 
 # aliases
 alias ls="eza"
+alias cat="bat"
 
 # load fuzzy finder autocompletions and keybindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
