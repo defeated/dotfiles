@@ -2,8 +2,6 @@
 .Trash
 .bashrc
 .cache
-.colima
-.docker
 .fig.dotfiles.bak
 .fzf.bash
 .fzf.zsh
