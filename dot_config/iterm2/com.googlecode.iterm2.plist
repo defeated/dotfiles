@@ -26,6 +26,10 @@
 	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>0</integer>
+	<key>NeverWarnAboutShortLivedSessions_0A4F323C-727B-479C-85A4-15DB0E7EFFAB</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_0A4F323C-727B-479C-85A4-15DB0E7EFFAB_selection</key>
+	<integer>0</integer>
 	<key>NeverWarnAboutShortLivedSessions_B630506D-5D3E-4F3E-B866-F6AA0938C59B</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_B630506D-5D3E-4F3E-B866-F6AA0938C59B_selection</key>
