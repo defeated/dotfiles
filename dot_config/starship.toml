@@ -5,6 +5,7 @@ command_timeout = 1000
 format = """
 [](color_orange)\
 $os\
+${env_var.CHEZMOI}\
 $username\
 [](bg:color_yellow fg:color_orange)\
 $directory\
@@ -163,3 +164,9 @@ vimcmd_symbol = '[](bold fg:color_green)'
 vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
 vimcmd_replace_symbol = '[](bold fg:color_purple)'
 vimcmd_visual_symbol = '[](bold fg:color_yellow)'
+
+[env_var.CHEZMOI]
+description = "in a chezmoi subshell"
+symbol = "🇫🇷"
+style = "bg:color_orange fg:color_fg0"
+format = "[ $symbol ]($style)"
