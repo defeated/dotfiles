@@ -16,6 +16,10 @@ eval "$(starship init zsh)"
 # load zoxide directory traversal and cd override
 eval "$(zoxide init zsh --cmd cd)"
 
+# keybindings
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
+
 # aliases
 alias ls="eza"
 alias cat="bat"
