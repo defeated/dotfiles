@@ -1,0 +1,5 @@
+-vv
+--dotfiles
+--target ~/
+--ignore .stowrc
+

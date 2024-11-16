@@ -3,8 +3,8 @@ all: test-install
 
 .PHONY: install
 install:
-	stow --dotfiles --target ~/ */
+	stow */
 
 .PHONE: test-install
 test-install:
-	stow --dotfiles --target ~/ --simulate --verbose=2 */
+	stow --simulate */
