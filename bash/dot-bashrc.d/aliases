@@ -1,0 +1,2 @@
+alias cat="bat --paging=never"
+alias code="code --ozone-platform=wayland"

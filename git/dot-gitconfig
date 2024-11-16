@@ -1,0 +1,26 @@
+[user]
+  email = defeated@users.noreply.github.com
+  name = eddie cianci
+  signingkey = /var/home/defeated/.ssh/id_rsa.pub
+[gpg]
+  format = ssh
+[commit]
+  gpgsign = true
+[credential "https://github.com"]
+  helper =
+  helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+  helper =
+  helper = !gh auth git-credential
+[push]
+  autoSetupRemote = true
+[pull]
+  rebase = true
+[rebase]
+  autoStash = true
+[fetch]
+  prune = true
+[submodule]
+  recurse = true
+[init]
+  defaultBranch = main
