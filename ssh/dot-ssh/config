@@ -1,8 +1,5 @@
 Host *
-  IgnoreUnknown AddKeysToAgent,UseKeychain
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_rsa
+  IdentityAgent ~/.1password/agent.sock
 
 Host github.com
   Hostname ssh.github.com
