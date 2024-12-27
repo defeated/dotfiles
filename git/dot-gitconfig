@@ -24,3 +24,5 @@
   recurse = true
 [init]
   defaultBranch = main
+[squash]
+	autoCommit = true
