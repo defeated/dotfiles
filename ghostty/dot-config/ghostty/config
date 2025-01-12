@@ -1,0 +1,5 @@
+background-opacity = 0.94
+window-height = 999
+window-width = 999
+theme = catppuccin-macchiato
+# command = /home/linuxbrew/.linuxbrew/bin/nu --login --interactive
