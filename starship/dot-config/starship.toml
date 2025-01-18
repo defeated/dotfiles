@@ -9,6 +9,7 @@ palette = "catppuccin_macchiato"
 # This preset emulates the look and behavior of Pure prompt
 format = """
 $aws\
+$kubernetes\
 $username\
 $hostname\
 $directory\
@@ -18,6 +19,13 @@ $git_status\
 $cmd_duration\
 $line_break\
 $character"""
+
+[kubernetes]
+disabled = false
+
+[[kubernetes.contexts]]
+context_pattern = "do-.*"
+context_alias = "digitalocean"
 
 [directory]
 style = "blue"
