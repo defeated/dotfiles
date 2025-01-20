@@ -26,6 +26,9 @@ disabled = false
 [[kubernetes.contexts]]
 context_pattern = "do-.*"
 context_alias = "digitalocean"
+[[kubernetes.contexts]]
+context_pattern = "lke.*"
+context_alias = "linode"
 
 [directory]
 style = "blue"
