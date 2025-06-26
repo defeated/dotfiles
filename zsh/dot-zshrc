@@ -1,0 +1,14 @@
+# enable context-aware tab completions including from homebrew
+FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+autoload -U compinit
+compinit
+
+# case insensitive tab completions
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# load other config files
+for file in "$HOME/.zshrc.d"/*; do
+  if [[ -f "$file" ]]; then
+    source "$file"
+  fi
+done
