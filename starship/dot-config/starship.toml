@@ -50,7 +50,7 @@ format = '\([$state( $progress_current/$progress_total)]($style)\) '
 style = "bright-black"
 
 [cmd_duration]
-format = "[$duration]($style) "
+format = " [$duration]($style) "
 style = "subtext0"
 min_time = 0
 show_milliseconds = true
