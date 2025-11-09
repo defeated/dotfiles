@@ -4,7 +4,5 @@ window-width = 999
 theme = catppuccin-macchiato.conf
 font-family = "FiraCode Nerd Font Mono Ret"
 font-size = 16
-keybind = global:cmd+grave_accent=toggle_quick_terminal
 quick-terminal-size = 30%
 quick-terminal-position = left
-keybind = shift+enter=text:\x1b\r

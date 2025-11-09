@@ -25,7 +25,7 @@
 [submodule]
   recurse = true
 [init]
-  defaultBranch = main
+	defaultBranch = main
 [squash]
   autoCommit = true
   gpgsign = true
