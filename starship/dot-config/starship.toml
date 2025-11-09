@@ -22,6 +22,7 @@ $character"""
 
 [kubernetes]
 disabled = false
+detect_env_vars = ["KUBECONFIG"]
 
 [[kubernetes.contexts]]
 context_pattern = "do-.*"
