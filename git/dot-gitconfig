@@ -1,7 +1,7 @@
 [user]
   email = defeated@users.noreply.github.com
   name = eddie cianci
-  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICjghuF2OgaI8wwuea14K568KsmIL74uPW0t2D+7q+1b
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC268BzS3+QOnzgsmMjqWhd2ZFYGjAYY7KePl83I7QMlseDLcAiWHdB9DBUdlp4ky5uon+VE7UsD5vsKl/YacHeleS3c02Nt0zNHyC55eUFaDVLMc+K2LU36MMux7zsxQicI3Lgii0FngmLF2rJZNN6m2vyKlUKuSk5oinKzUHePBAG3Jz/aRebonT4EoaJ2mjamfIlAN9bft3bEcT5Xx1/BRUTsJfZR/7JhaIIMXE47zgav5q5wZ3+n2Cm6WIFyoj0Gw9wE2HkSP72WvFsLX1GV66auYR/Skwz5Juvc82N8nJbCJhmyEDkhYjFQHLLL9f+oKGuBcQEbmM9l8VxBVeb
 [gpg]
   format = ssh
 [gpg "ssh"]
