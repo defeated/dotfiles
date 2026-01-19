@@ -1,3 +1,9 @@
+#
+# .zshrc is sourced in interactive shells.
+# It should contain commands to set up aliases,
+# functions, options, key bindings, etc.
+#
+
 # enable context-aware tab completions including from homebrew
 FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 autoload -U compinit
@@ -6,9 +12,13 @@ compinit
 # case insensitive tab completions
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
+#allow tab completion in the middle of a word
+setopt COMPLETE_IN_WORD
+
 # load other config files
-for file in "$HOME/.zshrc.d"/*; do
-  if [[ -f "$file" ]]; then
-    source "$file"
+for rc in "$HOME/.zshrc.d"/*; do
+  if [[ -f "$rc" ]]; then
+    source "$rc"
   fi
 done
+unset rc
