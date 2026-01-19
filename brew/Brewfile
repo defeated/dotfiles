@@ -33,7 +33,6 @@ if OS.mac?
   cask "font-fira-code-nerd-font"
   cask "ghostty"
   cask "keepingyouawake"
-  cask "rancher"
   cask "screen-studio"
   cask "visual-studio-code"
 end
