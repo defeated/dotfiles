@@ -40,4 +40,5 @@ end
 
 if OS.linux?
   flatpak "com.google.Chrome"
+  flatpak "hu.irl.cameractrls"
 end
