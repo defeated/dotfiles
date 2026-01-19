@@ -26,12 +26,18 @@ brew "yq"
 brew "zellij"
 brew "zoxide"
 
-cask "1password"
-cask "1password-cli"
-cask "aws-vpn-client"
-cask "font-fira-code-nerd-font"
-cask "ghostty"
-cask "keepingyouawake"
-cask "rancher"
-cask "screen-studio"
-cask "visual-studio-code"
+if OS.mac?
+  cask "1password"
+  cask "1password-cli"
+  cask "aws-vpn-client"
+  cask "font-fira-code-nerd-font"
+  cask "ghostty"
+  cask "keepingyouawake"
+  cask "rancher"
+  cask "screen-studio"
+  cask "visual-studio-code"
+end
+
+if OS.linux?
+  flatpak "com.google.Chrome"
+end
