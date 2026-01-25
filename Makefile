@@ -1,10 +1,9 @@
-.PHONY: all
+.PHONY: all install test-install
+
 all: test-install
 
-.PHONY: install
 install:
 	stow */
 
-.PHONE: test-install
 test-install:
 	stow --simulate */
