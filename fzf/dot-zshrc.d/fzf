@@ -6,4 +6,4 @@ export FZF_DEFAULT_OPTS=" \
 --color=selected-bg:#494D64 \
 --color=border:#6E738D,label:#CAD3F5"
 
-source <(fzf --zsh)
+FZF_CTRL_R_COMMAND="" source <(fzf --zsh)
