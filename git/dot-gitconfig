@@ -17,6 +17,7 @@
   rebase = true
 [rebase]
   autoStash = true
+  updateRefs = true
 [fetch]
   prune = true
 [submodule]
@@ -28,3 +29,5 @@
   gpgsign = true
 [include]
   path = ~/.config/git/config
+[rerere]
+  enabled = true
