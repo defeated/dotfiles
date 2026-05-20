@@ -41,4 +41,11 @@ if OS.linux?
   flatpak "com.google.Chrome"
   flatpak "hu.irl.cameractrls"
   flatpak "it.mijorus.smile"
+  flatpak "org.localsend.localsend_app"
+  flatpak "io.podman_desktop.PodmanDesktop"
+  flatpak "com.protonvpn.www"
+  flatpak "com.spotify.Client"
+  flatpak "us.zoom.Zoom"
+  flatpak "ca.desrt.dconf-editor"
+  flatpak "com.github.jeromerobert.pdfarranger"
 end
