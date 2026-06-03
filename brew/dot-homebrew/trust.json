@@ -1,0 +1,6 @@
+{
+  "trustedformulae": [
+    "heroku/brew/heroku",
+    "valkyrie00/bbrew/bbrew"
+  ]
+}
