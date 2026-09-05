@@ -1,0 +1,31 @@
+[settings]
+dotfiles.root = "~/.dotfiles"
+dotfiles.default_mode = "symlink"
+
+[bootstrap.packages]
+"pacman:ttf-firacode-nerd" = "latest"
+"pacman:ttf-jetbrains-mono-nerd" = "latest"
+"pacman:ghostty" = "latest"
+"pacman:starship" = "latest"
+"pacman:jp2a" = "latest"
+"pacman:tree" = "latest"
+"pacman:lazygit" = "latest"
+"pacman:lazydocker" = "latest"
+
+[dotfiles]
+"~/.config/fish/config.fish" = {}
+"~/.config/niri/cfg/animation.kdl" = {}
+"~/.config/niri/cfg/autostart.kdl" = {}
+"~/.config/niri/cfg/display.kdl" = {}
+"~/.config/niri/cfg/input.kdl" = {}
+"~/.config/niri/cfg/keybinds.kdl" = {}
+"~/.config/niri/cfg/layout.kdl" = {}
+"~/.config/niri/cfg/misc.kdl" = {}
+"~/.config/niri/cfg/rules.kdl" = {}
+"~/.config/niri/config.kdl" = {}
+"~/.config/starship.toml" = {}
+"~/.gitconfig" = {}
+"~/Pictures/defeated.jpg" = {}
+
+[tools]
+gh = "latest"
