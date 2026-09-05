@@ -16,6 +16,7 @@ dotfiles.default_mode = "symlink"
 
 [dotfiles]
 "~/.config/containers/registries.conf" = {}
+"~/.config/fastfetch/config.jsonc" = {}
 "~/.config/fish/config.fish" = {}
 "~/.config/ghostty/config.ghostty" = {}
 "~/.config/niri/cfg/animation.kdl" = {}
@@ -30,6 +31,7 @@ dotfiles.default_mode = "symlink"
 "~/.config/starship.toml" = {}
 "~/.gitconfig" = {}
 "~/Pictures/defeated.jpg" = {}
+"~/Pictures/noctalia-logo.txt" = {}
 
 [tools]
 gh = "latest"
