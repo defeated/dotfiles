@@ -11,9 +11,13 @@ dotfiles.default_mode = "symlink"
 "pacman:tree" = "latest"
 "pacman:lazygit" = "latest"
 "pacman:lazydocker" = "latest"
+"pacman:podman" = "latest"
+"pacman:docker-compose" = "latest"
 
 [dotfiles]
+"~/.config/containers/registries.conf" = {}
 "~/.config/fish/config.fish" = {}
+"~/.config/ghostty/config.ghostty" = {}
 "~/.config/niri/cfg/animation.kdl" = {}
 "~/.config/niri/cfg/autostart.kdl" = {}
 "~/.config/niri/cfg/display.kdl" = {}

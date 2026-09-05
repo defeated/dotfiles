@@ -13,3 +13,4 @@ zoxide init fish --cmd cd | source
 alias cat='bat --paging=never'
 alias z='__zoxide_z'
 alias zi='__zoxide_zi'
+alias docker='podman'
