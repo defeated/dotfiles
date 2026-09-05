@@ -29,6 +29,7 @@ dotfiles.default_mode = "symlink"
 "~/.config/niri/cfg/rules.kdl" = {}
 "~/.config/niri/config.kdl" = {}
 "~/.config/starship.toml" = {}
+"~/.config/voxtype/config.toml" = {}
 "~/.gitconfig" = {}
 "~/Pictures/defeated.jpg" = {}
 "~/Pictures/noctalia-logo.txt" = {}

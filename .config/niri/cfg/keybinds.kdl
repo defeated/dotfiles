@@ -6,6 +6,9 @@ binds {
     // ─── noctalia-shell keybinds ───
     // https://docs.noctalia.dev/getting-started/keybinds/
 
+    // Voxtype start-and-stop recording
+    Mod+F12 repeat=false { spawn "voxtype" "record" "toggle"; }
+
     Mod+Shift+ESCAPE                     { show-hotkey-overlay; }
 
     // ─── Applications ───
