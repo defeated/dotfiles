@@ -1,6 +1,0 @@
---verbose=2
---dotfiles
---target ~/
---ignore .stowrc
---adopt
-
