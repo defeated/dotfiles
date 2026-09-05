@@ -19,7 +19,7 @@
 
 # installation
 
-1. :waves hands:: install git
+1. ::waves hands:: install git
 2. install mise `curl https://mise.run | sh`
 3. run:
 
