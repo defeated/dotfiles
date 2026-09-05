@@ -9,10 +9,14 @@ dotfiles.default_mode = "symlink"
 "pacman:starship" = "latest"
 "pacman:jp2a" = "latest"
 "pacman:tree" = "latest"
+"pacman:glow" = "latest"
+"pacman:noctalia-greeter" = "latest"
 "pacman:lazygit" = "latest"
 "pacman:lazydocker" = "latest"
 "pacman:podman" = "latest"
 "pacman:docker-compose" = "latest"
+"pacman:vulkan-icd-loader" = "latest"
+"aur:voxtype-bin" = "latest"
 
 [dotfiles]
 "~/.config/containers/registries.conf" = {}
