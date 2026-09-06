@@ -152,6 +152,9 @@ mode = "dark"
 source = "wallpaper"
 wallpaper_scheme = "m3-rainbow"
 
+    [theme.templates]
+    builtin_ids = [ "btop", "gtk3", "gtk4", "ghostty", "niri", "starship" ]
+
 [wallpaper.default]
 path = "/home/defeated/Pictures/wallhaven-wyw7d7.png"
 
