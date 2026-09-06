@@ -2,7 +2,7 @@ config_version = 14
 
 [bar.default]
 background_opacity = 0.87999998033046722
-center = [ "clock", "status" ]
+center = [ "status", "clock", "screenshot" ]
 end = [
     "group:g1",
     "media",
@@ -193,6 +193,9 @@ vpn_status = "both"
 
 [widget.notifications]
 hide_when_no_unread = true
+
+[widget.screenshot]
+capsule = true
 
 [widget.status]
 capsule = true
