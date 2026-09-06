@@ -3,6 +3,7 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [bootstrap.packages]
+"pacman:zed" = "latest"
 "pacman:ttf-firacode-nerd" = "latest"
 "pacman:ttf-jetbrains-mono-nerd" = "latest"
 "pacman:ghostty" = "latest"
@@ -35,6 +36,7 @@ dotfiles.default_mode = "symlink"
 "~/.config/noctalia/config.toml" = {}
 "~/.config/starship.toml" = {}
 "~/.config/voxtype/config.toml" = {}
+"~/.config/zed/settings.json" = {}
 "~/.gitconfig" = {}
 "~/.local/state/noctalia/settings.toml" = {}
 "~/Pictures/defeated.jpg" = {}
