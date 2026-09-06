@@ -42,3 +42,4 @@ dotfiles.default_mode = "symlink"
 
 [tools]
 gh = "latest"
+"github:docker/sbx-releases" = "latest"
