@@ -1,2 +1,7 @@
 [shell]
 polkit_agent = true
+
+[shell.launcher]
+categories = false
+compact = true
+show_icons = false
