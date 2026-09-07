@@ -2,7 +2,6 @@ config_version = 14
 
 [bar.default]
 background_opacity = 0.87999998033046722
-center = [ "status", "clock", "screenshot" ]
 end = [
     "group:g1",
     "media",
@@ -19,7 +18,7 @@ end = [
     "session"
 ]
 margin_ends = 4
-start = [ "launcher", "group:g2", "workspaces" ]
+start = [ "launcher", "group:g2", "group:g3", "status", "workspaces" ]
 
     [[bar.default.capsule_group]]
     accordion = true
@@ -38,6 +37,16 @@ start = [ "launcher", "group:g2", "workspaces" ]
     fill = "surface_variant"
     id = "g2"
     members = [ "wallhaven", "wallpaper", "mpvpaper" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "surface_variant"
+    id = "g3"
+    members = [ "screenshot", "recorder" ]
     opacity = 1.0
     padding = 6.0
 
@@ -95,8 +104,11 @@ widget_order = [ "lockscreen-login-box@eDP-1" ]
 [nightlight]
 enabled = true
 
+[plugin_settings."noctalia/screen_recorder"]
+copy_to_clipboard = true
+
 [plugins]
-enabled = [ "noctalia/mpvpaper", "noctalia/wallhaven", "gabedunn/voxtype" ]
+enabled = [ "noctalia/mpvpaper", "noctalia/wallhaven", "gabedunn/voxtype", "noctalia/screen_recorder" ]
 
 [shell]
 avatar_path = "/home/defeated/Pictures/defeated.jpg"
@@ -196,6 +208,9 @@ vpn_status = "both"
 
 [widget.notifications]
 hide_when_no_unread = true
+
+[widget.recorder]
+type = "noctalia/screen_recorder:recorder"
 
 [widget.screenshot]
 capsule = true
