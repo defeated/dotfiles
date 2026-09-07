@@ -30,3 +30,7 @@ mise bootstrap \
   --from-dir ~/.dotfiles \
   --from https://github.com/defeated/dotfiles
 ```
+## video
+
+https://github.com/user-attachments/assets/6b13d109-c81c-4fed-b091-bd5af81820a3
+
